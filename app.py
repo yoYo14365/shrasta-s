@@ -6,7 +6,7 @@ app =  Flask(__name__)
 def index():
   return render_template('index.html')
 
-@app.route('/')
+@app.route('/about')
 def about():
   return 'this is about this page'
 
