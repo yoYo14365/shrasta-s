@@ -10,7 +10,7 @@ def home():
 
 @app.route('/hello')
 def hello():
-  return 'hello this is the intro section after the welcome, I want to say hello to you'
+  return 'hello this is the intro section after the welcome, I want to say hello to you. Glad you entered this page.'
 
 
 @app.route('/hello/<name>')
